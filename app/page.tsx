@@ -632,6 +632,18 @@ export default function Home() {
     </p>
   </div>
 </section>
+<section
+  id="waitlist"
+  className="flex min-h-screen items-center justify-center border-t border-zinc-800"
+>
+  <div className="text-center">
+    <h2 className="text-5xl font-black">Waitlist Section</h2>
+
+    <p className="mt-4 text-zinc-400">
+      Join the DocuFrame beta program.
+    </p>
+  </div>
+</section>
     </main>
   )
 }
