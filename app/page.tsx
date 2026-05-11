@@ -582,6 +582,47 @@ export default function Home() {
     </footer>
   </div>
 </section>
+<section className="relative z-10 border-t border-zinc-800 px-6 py-24">
+  <div className="mx-auto max-w-4xl rounded-[40px] border border-zinc-800 bg-zinc-900/60 p-12 text-center backdrop-blur">
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-purple-400">
+      Join The Beta
+    </p>
+
+    <h2 className="mt-4 text-5xl font-black leading-tight">
+      Be First To Experience AI Documentation Automation
+    </h2>
+
+    <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400">
+      Join the DocuFrame waitlist and get early access,
+      feature updates, and private beta invitations.
+    </p>
+
+    <form
+      action="https://formspree.io/f/xaqvalgk"
+      method="POST"
+      className="mx-auto mt-10 flex max-w-2xl flex-col gap-4 sm:flex-row"
+    >
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="Enter your work email"
+        className="flex-1 rounded-2xl border border-zinc-700 bg-black/40 px-6 py-4 text-white outline-none transition focus:border-purple-500"
+      />
+
+      <button
+        type="submit"
+        className="rounded-2xl bg-white px-8 py-4 font-semibold text-black transition hover:scale-[1.02]"
+      >
+        Join Waitlist
+      </button>
+    </form>
+
+    <p className="mt-6 text-sm text-zinc-500">
+      No spam. Early access only.
+    </p>
+  </div>
+</section>
     </main>
   )
 }
