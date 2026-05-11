@@ -24,9 +24,12 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-2xl bg-white px-6 py-3 font-semibold text-black">
-            Join Beta
-          </button>
+          <a
+  href="#waitlist"
+  className="rounded-2xl bg-white px-8 py-4 font-semibold text-black transition hover:scale-[1.02]"
+>
+  Join Beta
+</a>
 
           <button className="rounded-2xl border border-zinc-700 px-6 py-3 font-semibold">
             Book Demo
@@ -34,7 +37,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative z-10 border-t border-zinc-800 px-6 py-24">
+      <section
+  
+  className="relative z-10 border-t border-zinc-800 px-6 py-24"
+>
         <div className="mx-auto max-w-6xl">
           <h2 className="text-4xl font-bold">
             Why Teams Use DocuFrame
@@ -582,7 +588,10 @@ export default function Home() {
     </footer>
   </div>
 </section>
-<section className="relative z-10 border-t border-zinc-800 px-6 py-24">
+<section
+  id="waitlist"
+  className="relative z-10 border-t border-zinc-800 px-6 py-24"
+>
   <div className="mx-auto max-w-4xl rounded-[40px] border border-zinc-800 bg-zinc-900/60 p-12 text-center backdrop-blur">
     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-purple-400">
       Join The Beta
